@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+        <title>contact us</title>
+        <style type="text/css">
+       
+       .contact {
+    display: block;
+    border: 10px solid #009988;
+    border-radius: 10px;
+    margin: 120px auto;
+    padding: 0 0 0 0;
+    max-width: 630px;
+    background: #009988;
+    
+
+
+}
+.title{
+    display: inline-block;
+    padding-left: 100px;
+    font-size: xx-large;
+
+}
+.title h1{
+    padding: 0 10px 0 10px;
+    margin: 5px 0;
+    color: white;
+}
+.from{
+    padding:10px 10px 0 0 ;
+
+}
+hr{
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    height: 3px;
+    border: 0;
+    background-color: white;
+}
+input,textarea{
+    width: 100%;
+    border: 5px solid  #ffffff;
+    border-radius: 5px;
+    resize: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-family: "open sans" sans-serif;
+    font-size: 18px;
+    color: #009988;
+    border: none;
+    outline: none;
+
+}
+input[type="text"]{
+
+padding:0;
+height: 40px;
+widows: 100%;
+}
+input:focus,
+textarea:focus{
+    outline: none;
+}
+.from-input{
+    margin: 5px 0 20px 0;
+}
+.from-textarea{
+    margin: 5px 0;
+    width: 100%;
+    height: 100px;
+}
+input [type="submit"]{
+    width: 100%;
+    height: 500px;
+    background: #26606f;
+    border: 0;
+    color: white;
+    border: 5px solid #0d3842;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 770px){
+    .title h1{
+        font-size: 27px;
+    }
+    
+}
+
+
+
+ 
+        </style>
+    </head>
+
+    <body>
+        <section id ="contact">
+            
+            <div class="contact">
+                <div class="title" style="font-weight: 300px;">
+                    <h1> <b>Still have questions? Contact us right now!!</b></h1>
+                </div>
+                <from action=" " class="form">
+                    <p>Name</p>
+                    <input type="text" class="from-input" required />
+        
+                    <p>Email</p>
+                    <input type="text" class="from-input"required />
+        
+                    <p>Message</p>
+                    <textarea type="text" class="from-input"required ></textarea>
+                    <input type="submit" value="Submit">
+                </from>
+        
+            </div>
+          
+            </section>
+        
+        
+    </body>
+</html>
